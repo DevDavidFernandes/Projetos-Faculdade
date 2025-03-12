@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Listas, Tabelas e Mídias em HTML</title>
+    </head>
+    <body>
+        <h1>Exemplos de listas, Tabelas e Mídias em HTML</h1>
+
+        <!-- Lista Ordenada (Numerada) -->
+         <h2>Lista Ordenada</h2>
+         <ol>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+         </ol>
+
+        <!-- Lista não ordenada (com marcadores) -->
+         <h2>Lista não ordenada</h2>
+         <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+         </ul>
+
+         <!-- Lista de definição (termo e descrição) -->
+         <h2>Lista de definição</h2>
+         <dl>
+            <dt>HTML</dt><!-- Termo definido -->
+            <dd>Linguagem de marcação para a web.</dd> <!-- Descrição do termo -->
+            <dt>CSS</dt>
+            <dd>Folhas de estilo para estilização de páginas.</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para interatividade.</dd>
+         </dl>
+
+         <!-- Exemplos de tabelas -->
+          <h2>Exemplos de tabelas</h2>
+          <table border="1"><!-- Define a tabela -->
+            <thead> <!-- Cabeçalho da tabela -->
+                <tr><!-- Linha do cabeçalho -->
+                    <th>Nome</th><!-- Coluna do cabeçalho -->
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody><!-- Corpo da tabela -->
+                <tr>
+                    <td>David</td><!-- Célula de dados -->
+                    <td>22</td>
+                    <td>Angra dos Reis</td>
+                </tr>
+                <tr>
+                    <td>Cauan</td>
+                    <td>20</td>
+                    <td>Angra dos Reis</td>
+                </tr>
+            </tbody>
+            <tfoot><!-- Rodapé da tabela -->
+                <tr>
+                    <td colspan="3">Dados fictícios para exemplo</td><!-- Célula mesclada em 3 colunas -->
+                </tr>
+            </tfoot>
+          </table>
+
+          <!-- Vídeo embutido -->
+           <h2>Vídeo</h2>
+           <video width="320" height="240" controls loop>
+                <source src="https://www.activision.com/cdn/sekiro/videos/Sekiro_Hero_Cinemagraph_v02_Desktop.mp4" type="video/mp4">
+                Seu navegador não suporta a tag
+           </video>
+
+           <!-- Áudio embutido -->
+            <h2>Áudio</h2>
+            <audio controls><!-- Define um áudio com controles -->
+                <source src="audio.mp3" type="audio/mp3"> <!-- Fonte do áudio -->
+                Seu navegador não suporta a tag de áudio.
+            </audio>
+    </body>
+</html>

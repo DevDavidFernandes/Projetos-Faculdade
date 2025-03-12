@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres para UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configuração para tornar a página responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas em HTML</title>
+</head>
+<body>
+    <!-- Tabela simples sem cabeçalho -->
+    <table>
+        <tr>
+            <!-- Célula contendo o nome do aluno -->
+            <td>David</td>
+            <!-- Célula contendo a disciplina -->
+            <td>HTML</td>
+            <!-- Célula contendo a nota -->
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Cauan</td>
+            <td>JavaScript</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h2>Uma tabela que contenha título</h2>
+    <!-- Outra tabela simples -->
+    <table>
+        <tr>
+            <td>David</td>
+            <td>HTML</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Cauan</td>
+            <td>JavaScript</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h2>Uma tabela com Cabeçalho e Rodapé</h2>
+    <!-- Tabela com cabeçalho, corpo e rodapé -->
+    <table width="100%" border="1">
+        <thead>
+            <!-- Linha do cabeçalho -->
+            <tr>
+                <th>Mês</th>
+                <th>Horas/Aulas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Corpo da tabela contendo os dados -->
+            <tr>
+                <td>Junho</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Julho</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- Rodapé da tabela -->
+            <tr>
+                <th>Total</th>
+                <th>100</th>
+            </tr>
+        </tfoot>    
+    </table>
+
+    <h2>Tabela com linhas e colunas expandidas</h2>
+    <!-- Tabela com colspan (colunas mescladas) -->
+    <table width="100%" border="1">
+        <tr>
+            <td>Aluno</td>
+            <td colspan="2">Disciplina</td> <!-- Colspan para mesclar 2 colunas -->
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>HTML</td>
+            <td>Ambiente Web</td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- Tabela com rowspan (linhas mescladas) -->
+    <table width="100%" border="1">
+        <tr>
+            <td>Aluno</td>
+            <td rowspan="2">Disciplina</td> <!-- Rowspan para mesclar 2 linhas -->
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>HTML</td>
+            <td>Ambiente Web</td>
+        </tr>
+    </table>
+</body>
+</html>

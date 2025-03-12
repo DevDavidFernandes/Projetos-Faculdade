@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante que a página seja responsiva -->
+    <title>Formulário HTML</title> <!-- Define o título da página -->
+</head>
+<body>
+    <!-- Formulário de entrada de dados -->
+    <form>
+        <!-- Rótulo e campo para o nome -->
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" required> <!-- Campo de texto obrigatório para o nome -->
+        <br>
+        
+        <!-- Rótulo e campo para o e-mail -->
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" required> <!-- Campo específico para entrada de e-mail -->
+        <br>
+        
+        <!-- Rótulo e campo para o telefone -->
+        <label for="tel">Telefone: </label>
+        <input type="tel" name="tel" required> <!-- Campo para número de telefone -->
+        <br>
+        
+        <!-- Rótulo e campo para a data de nascimento -->
+        <label for="nascimento">Data de Nascimento: </label>
+        <input type="date" name="nascimento" required> <!-- Campo para seleção de data -->
+        <br>
+        
+        <!-- Rótulo e área de texto para mensagem -->
+        <label for="mensagem">Mensagem: </label>
+        <textarea name="mensagem" cols="30" rows="4"></textarea> <!-- Campo de texto para mensagens maiores -->
+        <br>
+        
+        <!-- Botão de envio do formulário -->
+        <input type="submit" value="Enviar"> 
+    </form>
+</body>
+</html>
