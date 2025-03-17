@@ -1,0 +1,30 @@
+/* CSS Externo: Definições de estilos reutilizáveis */
+
+/* Adiciona uma borda e espaçamento interno aos elementos que possuem essa classe */
+.elemento-com-borda {
+  border: 3px solid #ffcc00; /* Define uma borda amarela */
+  padding: 10px; /* Define um espaçamento interno */
+}
+
+/* Define o fundo cinza para os elementos que possuem essa classe */
+.cascata {
+  background-color: gray;
+}
+
+/* Define um fundo laranja apenas para o elemento com ID "para2" */
+#para2 {
+  background-color: orange;
+}
+
+/* Estiliza a div com gradiente e propriedades visuais */
+.gradient {
+  font-weight: bold; /* Define o texto em negrito */
+  font-size: 3rem; /* Define um tamanho de fonte grande */
+  width: 400px; /* Define a largura da div */
+  height: 300px; /* Define a altura da div */
+  background: linear-gradient(
+    purple,
+    black
+  ); /* Aplica um fundo com gradiente de roxo para preto */
+  margin: 20px 30px; /* Define espaçamentos externos nos eixos vertical e horizontal */
+}
