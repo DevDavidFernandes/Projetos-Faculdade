@@ -1,0 +1,19 @@
+/* Estiliza a div com id "container" */
+#container {
+  background: #ccc; /* Define a cor de fundo como cinza claro */
+  width: 960px; /* Define a largura fixa */
+  margin: 0 auto; /* Centraliza o container na página */
+  padding: 10px; /* Adiciona espaçamento interno */
+}
+
+/* Estiliza os elementos com a classe "texto-destaque" */
+.texto-destaque {
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Seleciona os itens da lista dentro de "ul" */
+ul li {
+  list-style: none; /* Remove os marcadores padrão da lista */
+  margin: 5px; /* Adiciona espaçamento entre os itens */
+  display: inline; /* Faz com que os itens fiquem lado a lado */
+}
