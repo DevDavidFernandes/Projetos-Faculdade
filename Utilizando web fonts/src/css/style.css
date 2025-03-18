@@ -1,0 +1,10 @@
+/* Define uma nova fonte personalizada utilizando @font-face */
+@font-face {
+  font-family: LinotypeFeltpen; /* Nome da fonte personalizada */
+  src: url(../fonts/LinotypeFeltpen.woff2) format(woff2); /* Caminho e formato da fonte */
+}
+
+/* Aplica a fonte personalizada ao elemento com id "container" */
+#container {
+  font-family: LinotypeFeltpen; /* Usa a fonte personalizada LinotypeFeltpen */
+}
